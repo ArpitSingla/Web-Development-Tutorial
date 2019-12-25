@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="firstName">First Name: </label>
+        <input id="firstName" type="text" placeholder="John" required>
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" type="text" placeholder="Smith" required>
+    <div>
+        <label for="gender1">Male</label>
+        <input id="gender1" name="genderChoice" type="radio">
+        <label for="gender2">Female</label>
+        <input id="gender2" name="genderChoice" type="radio">
+        <label for="gender3">Other</label>
+        <input id="gender3" name="genderChoice" type="radio">
+    </div>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="your email" id="email" required>
+        <label for="password">Password: </label>
+        <input type="password" placeholder="your password" id="password" pattern=".{5,10}" required title="Password length should be between 5 to 10 characters">
+    </div>
+    <div>
+        <label for="birthday">Birthday: </label>
+        <select id="birthday">
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+        </select>
+        <select id="birthday">
+                <option>Day</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+        </select>
+        <select id="birthday">
+                <option>Year</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+        </select>
+    </div>
+    <div>
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <input id="checkbox" type="checkbox">
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+    </form>
+</body>
+</html>
