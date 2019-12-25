@@ -1,0 +1,10 @@
+li{
+    border:2px solid red;
+}
+#special{
+    background:yellow;
+}
+.high{
+    background:pink;
+    text-decoration:line-through;
+}
